@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    dirs: ['src'],
-  },
+  eslint: {},
 
   reactStrictMode: true,
   swcMinify: true,
