@@ -37,7 +37,7 @@ function App() {
   return (
     <div className='min-h-screen bg-gray-600'>
       <Header></Header>
-      <div className='hero bg-gray-400'>
+      <div className='hero bg-gray-700'>
         <div className='mx-auto flex max-w-[1024px] max-w-screen-xl flex-wrap items-center justify-evenly'>
           <div className='w-2/5'>
             <CTA />

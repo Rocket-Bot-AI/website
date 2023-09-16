@@ -5,10 +5,12 @@ import options from '@/components/index.heatmapOptions';
 const Performance = () => {
   console.log(options);
   return (
-    <div className='performance min-h-[600px] w-full bg-gray-300 py-32 text-black'>
+    <div className='performance min-h-[600px] w-full bg-gray-500 py-32 text-gray-100'>
       <div className='mx-auto flex max-w-[1024px] max-w-screen-xl flex-col flex-wrap items-center'>
-        <div id="performance" className='mb-8 text-5xl text-cyan-500'>Rocket Bot 🤖</div>
-        <div className='mb-8 max-w-[800px] text-xl text-center'>
+        <div id='performance' className='mb-8 text-5xl text-cyan-500'>
+          Rocket Bot 🤖
+        </div>
+        <div className='mb-4 max-w-[800px] text-center text-xl'>
           Rocket Bot is your AI-powered trading companion, engineered to propel
           your investments to new heights with its data-driven precision. Our
           cutting-edge AI algorithms analyze real-time market data, ensuring you
@@ -22,7 +24,9 @@ const Performance = () => {
           investments soar like never before.
         </div>
 
-        <div className='mt-12 text-3xl text-gray-500'>The monthly Performance of Rocket Bot</div>
+        <div className='mt-12 text-3xl text-gray-100'>
+          The monthly Performance of Rocket Bot
+        </div>
         <ReactECharts
           style={{ height: 600, width: '100%' }}
           option={options}

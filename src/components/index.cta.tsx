@@ -1,7 +1,7 @@
 const CTA = () => {
   return (
     <div className=''>
-      <div className='text-black'>
+      <div className='text-gray-100'>
         <div className='mb-8 text-5xl text-cyan-200'>AI Trading BOT</div>
         <div className='mb-8'>Grow your wealth, One Trade at a time!</div>
         <div className='mb-8'>
