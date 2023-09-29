@@ -2,10 +2,23 @@ import ReactECharts from 'echarts-for-react'; // or var ReactECharts = require('
 
 import options from '@/components/index.heatmapOptions';
 
+const Monthly_Performance = () => (
+  <div className=''>
+    <div className='mt-12 text-3xl text-gray-100'>
+      The monthly Performance of Rocket Bot
+    </div>
+    <ReactECharts
+      style={{ height: 600, width: '100%' }}
+      option={options}
+      notMerge
+      lazyUpdate
+      theme='theme_name'
+    />
+  </div>
+);
 const Performance = () => {
-  console.log(options);
   return (
-    <div className='performance min-h-[600px] w-full bg-gray-500 py-32 text-gray-100'>
+    <div className='performance min-h-[600px] w-full bg-gray-600 py-32 text-gray-100'>
       <div className='mx-auto flex max-w-[1024px] max-w-screen-xl flex-col flex-wrap items-center'>
         <div id='performance' className='mb-8 text-5xl text-cyan-500'>
           Rocket Bot 🤖
@@ -23,17 +36,6 @@ const Performance = () => {
           financial success. Join the Rocket Revolution today and watch your
           investments soar like never before.
         </div>
-
-        <div className='mt-12 text-3xl text-gray-100'>
-          The monthly Performance of Rocket Bot
-        </div>
-        <ReactECharts
-          style={{ height: 600, width: '100%' }}
-          option={options}
-          notMerge
-          lazyUpdate
-          theme='theme_name'
-        />
       </div>
     </div>
   );

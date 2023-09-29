@@ -12,7 +12,7 @@ const CTA = () => {
       </div>
 
       <a
-        href='https://collective2.com/details/145806926'
+        href='#strategies'
         className='mr-2 rounded-lg bg-cyan-500 px-4 py-2 text-sm font-medium text-gray-600 hover:bg-cyan-400 focus:outline-none focus:ring-4 lg:px-5 lg:py-2.5'
       >
         Start Trading

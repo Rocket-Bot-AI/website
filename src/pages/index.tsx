@@ -5,6 +5,7 @@ import Header from '@/components/Header';
 import CTA from '@/components/index.cta';
 import { option } from '@/components/index.generateOption';
 import Performance from '@/components/index.performance';
+import Strategies from '@/components/index.strategies';
 
 const defaultState = {
   height: 0,
@@ -55,6 +56,7 @@ function App() {
         </div>
       </div>
       <Performance />
+      <Strategies />
     </div>
   );
 }
