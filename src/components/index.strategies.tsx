@@ -17,8 +17,8 @@ const largerOptions = {
   monthly: '11.8%',
 };
 
-const StrategyCard = ({ options }) => {
-  console.log(options);
+const StrategyCard = (props: any) => {
+  const options = { ...props.options };
   return (
     <div className='mx-8 w-full max-w-sm rounded-lg border border-gray-200 bg-white p-4 shadow dark:border-gray-700 dark:bg-gray-800 sm:p-8'>
       <h5 className='mb-4 text-xl font-medium text-gray-500 dark:text-gray-400'>

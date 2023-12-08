@@ -4,7 +4,7 @@ import options from '@/components/index.heatmapOptions';
 
 const Monthly_Performance = () => (
   <div className=''>
-    <div className='mt-12 text-3xl text-gray-100'>
+    <div className='mt-12 text-center text-3xl text-gray-600'>
       The monthly Performance of Rocket Bot
     </div>
     <ReactECharts
@@ -18,7 +18,7 @@ const Monthly_Performance = () => (
 );
 const Performance = () => {
   return (
-    <div className='performance min-h-[600px] w-full bg-gray-600 py-32 text-gray-100'>
+    <div className='performance min-h-[600px] w-full bg-gray-300 py-32 text-gray-600'>
       <div className='mx-auto flex max-w-[1024px] max-w-screen-xl flex-col flex-wrap items-center'>
         <div id='performance' className='mb-8 text-5xl text-cyan-500'>
           Rocket Bot 🤖
@@ -37,6 +37,7 @@ const Performance = () => {
           investments soar like never before.
         </div>
       </div>
+      <Monthly_Performance />
     </div>
   );
 };
